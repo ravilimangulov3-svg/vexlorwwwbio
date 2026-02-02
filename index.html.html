@@ -1,0 +1,305 @@
+<html>
+<head>
+<title>index.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #d5b778;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bababa;}
+.s3 { color: #6aab73;}
+.s4 { color: #7a7e85;}
+.s5 { color: #2aacb8;}
+.s6 { color: #56a8f5;}
+.s7 { color: #cf8e6d;}
+</style>
+</head>
+<body bgcolor="#191a1c">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+index.html</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;!DOCTYPE </span><span class="s2">html</span><span class="s0">&gt;</span>
+<span class="s0">&lt;html </span><span class="s2">lang</span><span class="s3">=&quot;ru&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;head&gt;</span>
+    <span class="s0">&lt;meta </span><span class="s2">charset</span><span class="s3">=&quot;UTF-8&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;title&gt;</span><span class="s1">vexlorwww — BIO </span><span class="s0">&lt;/title&gt;</span>
+    <span class="s0">&lt;style&gt;</span>
+        <span class="s4">/* --- Общие стили --- */</span>
+        <span class="s0">* </span><span class="s1">{</span><span class="s2">margin</span><span class="s1">:</span><span class="s5">0</span><span class="s1">;</span><span class="s2">padding</span><span class="s1">:</span><span class="s5">0</span><span class="s1">;</span><span class="s2">box-sizing</span><span class="s1">:</span><span class="s3">border-box</span><span class="s1">;}</span>
+        <span class="s0">body </span><span class="s1">{</span>
+            <span class="s2">font-family</span><span class="s1">: </span><span class="s3">Arial</span><span class="s1">, </span><span class="s3">Helvetica</span><span class="s1">, </span><span class="s3">sans-serif</span><span class="s1">;</span>
+            <span class="s2">background</span><span class="s1">: </span><span class="s0">linear-gradient</span><span class="s1">(-</span><span class="s5">45</span><span class="s3">deg</span><span class="s1">, </span><span class="s6">#0f0c29</span><span class="s1">, </span><span class="s6">#302b63</span><span class="s1">, </span><span class="s6">#24243e</span><span class="s1">);</span>
+            <span class="s2">color</span><span class="s1">:</span><span class="s6">#ddd</span><span class="s1">;</span>
+            <span class="s2">padding</span><span class="s1">:</span><span class="s5">30</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">overflow-x</span><span class="s1">:</span><span class="s3">hidden</span><span class="s1">;</span>
+        <span class="s1">}</span>
+        <span class="s0">h1</span><span class="s1">,</span><span class="s0">h2 </span><span class="s1">{</span>
+            <span class="s2">text-align</span><span class="s1">:</span><span class="s3">center</span><span class="s1">;</span>
+            <span class="s2">color</span><span class="s1">:</span><span class="s6">#00fff6</span><span class="s1">;</span>
+            <span class="s2">text-shadow</span><span class="s1">: </span><span class="s5">0 0 8</span><span class="s3">px </span><span class="s6">#00fff6</span><span class="s1">, </span><span class="s5">0 0 15</span><span class="s3">px </span><span class="s6">#00bcd4</span><span class="s1">;</span>
+            <span class="s2">margin-bottom</span><span class="s1">:</span><span class="s5">20</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">cursor</span><span class="s1">:</span><span class="s3">pointer</span><span class="s1">;</span>
+        <span class="s1">}</span>
+        <span class="s0">h2</span><span class="s1">:</span><span class="s0">hover </span><span class="s1">{</span><span class="s2">color</span><span class="s1">:</span><span class="s6">#ff00ff</span><span class="s1">; </span><span class="s2">text-shadow</span><span class="s1">:</span><span class="s5">0 0 10</span><span class="s3">px </span><span class="s6">#ff00ff</span><span class="s1">,</span><span class="s5">0 0 25</span><span class="s3">px </span><span class="s6">#ff00ff</span><span class="s1">;}</span>
+
+        <span class="s4">/* --- Био --- */</span>
+        <span class="s1">.</span><span class="s0">bio-card </span><span class="s1">{</span>
+            <span class="s2">background</span><span class="s1">: </span><span class="s0">rgba</span><span class="s1">(</span><span class="s5">10</span><span class="s1">,</span><span class="s5">10</span><span class="s1">,</span><span class="s5">10</span><span class="s1">,</span><span class="s5">0.9</span><span class="s1">);</span>
+            <span class="s2">border-radius</span><span class="s1">: </span><span class="s5">15</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">margin-bottom</span><span class="s1">: </span><span class="s5">30</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">box-shadow</span><span class="s1">:</span><span class="s5">0 0 25</span><span class="s3">px </span><span class="s0">rgba</span><span class="s1">(</span><span class="s5">0</span><span class="s1">,</span><span class="s5">255</span><span class="s1">,</span><span class="s5">246</span><span class="s1">,</span><span class="s5">0.3</span><span class="s1">);</span>
+            <span class="s2">overflow</span><span class="s1">: </span><span class="s3">hidden</span><span class="s1">;</span>
+            <span class="s2">max-height</span><span class="s1">:</span><span class="s5">0</span><span class="s1">;</span>
+            <span class="s2">opacity</span><span class="s1">:</span><span class="s5">0</span><span class="s1">;</span>
+            <span class="s2">transition</span><span class="s1">: </span><span class="s3">max-height </span><span class="s5">0.8</span><span class="s3">s ease</span><span class="s1">, </span><span class="s3">opacity </span><span class="s5">0.8</span><span class="s3">s ease</span><span class="s1">, </span><span class="s3">padding </span><span class="s5">0.8</span><span class="s3">s ease</span><span class="s1">;</span>
+            <span class="s2">padding</span><span class="s1">:</span><span class="s5">0 25</span><span class="s3">px</span><span class="s1">;</span>
+        <span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">bio-card</span><span class="s1">.</span><span class="s0">open </span><span class="s1">{</span>
+            <span class="s2">max-height</span><span class="s1">:</span><span class="s5">1000</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">opacity</span><span class="s1">:</span><span class="s5">1</span><span class="s1">;</span>
+            <span class="s2">padding</span><span class="s1">:</span><span class="s5">25</span><span class="s3">px</span><span class="s1">;</span>
+        <span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">bio-card p </span><span class="s1">{</span><span class="s2">margin-bottom</span><span class="s1">:</span><span class="s5">10</span><span class="s3">px</span><span class="s1">; </span><span class="s2">font-size</span><span class="s1">:</span><span class="s5">16</span><span class="s3">px</span><span class="s1">; </span><span class="s2">line-height</span><span class="s1">:</span><span class="s5">1.5</span><span class="s1">;}</span>
+
+        <span class="s4">/* --- Карточки оружия --- */</span>
+        <span class="s1">.</span><span class="s0">cards-container </span><span class="s1">{</span>
+            <span class="s2">display</span><span class="s1">:</span><span class="s3">flex</span><span class="s1">;</span>
+            <span class="s2">justify-content</span><span class="s1">:</span><span class="s3">center</span><span class="s1">;</span>
+            <span class="s2">gap</span><span class="s1">:</span><span class="s5">50</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">flex-wrap</span><span class="s1">:</span><span class="s3">wrap</span><span class="s1">;</span>
+            <span class="s2">margin-top</span><span class="s1">:</span><span class="s5">40</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">margin-bottom</span><span class="s1">:</span><span class="s5">60</span><span class="s3">px</span><span class="s1">;</span>
+        <span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">flip-card </span><span class="s1">{</span>
+            <span class="s2">background</span><span class="s1">:</span><span class="s3">transparent</span><span class="s1">;</span>
+            <span class="s2">width</span><span class="s1">:</span><span class="s5">180</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">height</span><span class="s1">:</span><span class="s5">220</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">perspective</span><span class="s1">:</span><span class="s5">1000</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">opacity</span><span class="s1">:</span><span class="s5">0</span><span class="s1">;</span>
+            <span class="s2">transform</span><span class="s1">: </span><span class="s0">translateY</span><span class="s1">(</span><span class="s5">50</span><span class="s3">px</span><span class="s1">);</span>
+            <span class="s2">transition</span><span class="s1">: </span><span class="s3">all </span><span class="s5">0.8</span><span class="s3">s ease</span><span class="s1">;</span>
+        <span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">flip-card</span><span class="s1">.</span><span class="s0">visible </span><span class="s1">{</span><span class="s2">opacity</span><span class="s1">:</span><span class="s5">1</span><span class="s1">; </span><span class="s2">transform</span><span class="s1">:</span><span class="s0">translateY</span><span class="s1">(</span><span class="s5">0</span><span class="s1">);}</span>
+        <span class="s1">.</span><span class="s0">flip-card-inner </span><span class="s1">{</span>
+            <span class="s2">position</span><span class="s1">:</span><span class="s3">relative</span><span class="s1">;</span>
+            <span class="s2">width</span><span class="s1">:</span><span class="s5">100</span><span class="s1">%;</span>
+            <span class="s2">height</span><span class="s1">:</span><span class="s5">100</span><span class="s1">%;</span>
+            <span class="s2">text-align</span><span class="s1">:</span><span class="s3">center</span><span class="s1">;</span>
+            <span class="s2">transform-style</span><span class="s1">: </span><span class="s3">preserve-3d</span><span class="s1">;</span>
+            <span class="s2">transition</span><span class="s1">: </span><span class="s3">transform </span><span class="s5">0.8</span><span class="s3">s</span><span class="s1">;</span>
+            <span class="s2">cursor</span><span class="s1">:</span><span class="s3">pointer</span><span class="s1">;</span>
+        <span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">flip-card-front</span><span class="s1">,.</span><span class="s0">flip-card-back </span><span class="s1">{</span>
+            <span class="s2">position</span><span class="s1">:</span><span class="s3">absolute</span><span class="s1">;</span>
+            <span class="s2">width</span><span class="s1">:</span><span class="s5">100</span><span class="s1">%;</span>
+            <span class="s2">height</span><span class="s1">:</span><span class="s5">100</span><span class="s1">%;</span>
+            <span class="s2">border-radius</span><span class="s1">:</span><span class="s5">15</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">backface-visibility</span><span class="s1">:</span><span class="s3">hidden</span><span class="s1">;</span>
+            <span class="s2">display</span><span class="s1">:</span><span class="s3">flex</span><span class="s1">;</span>
+            <span class="s2">flex-direction</span><span class="s1">:</span><span class="s3">column</span><span class="s1">;</span>
+            <span class="s2">justify-content</span><span class="s1">:</span><span class="s3">center</span><span class="s1">;</span>
+            <span class="s2">align-items</span><span class="s1">:</span><span class="s3">center</span><span class="s1">;</span>
+            <span class="s2">box-shadow</span><span class="s1">:</span><span class="s5">0 0 20</span><span class="s3">px </span><span class="s0">rgba</span><span class="s1">(</span><span class="s5">0</span><span class="s1">,</span><span class="s5">255</span><span class="s1">,</span><span class="s5">246</span><span class="s1">,</span><span class="s5">0.2</span><span class="s1">);</span>
+        <span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">flip-card-front </span><span class="s1">{</span>
+            <span class="s2">background</span><span class="s1">: </span><span class="s0">rgba</span><span class="s1">(</span><span class="s5">20</span><span class="s1">,</span><span class="s5">20</span><span class="s1">,</span><span class="s5">20</span><span class="s1">,</span><span class="s5">0.9</span><span class="s1">);</span>
+            <span class="s2">padding</span><span class="s1">: </span><span class="s5">15</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">transition</span><span class="s1">: </span><span class="s5">0.3</span><span class="s3">s all</span><span class="s1">;</span>
+        <span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">flip-card-front img </span><span class="s1">{</span>
+            <span class="s2">width</span><span class="s1">:</span><span class="s5">100</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">image-rendering</span><span class="s1">: </span><span class="s3">pixelated</span><span class="s1">;</span>
+            <span class="s2">margin-bottom</span><span class="s1">:</span><span class="s5">10</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">filter</span><span class="s1">: </span><span class="s0">drop-shadow</span><span class="s1">(</span><span class="s5">0 0 5</span><span class="s3">px </span><span class="s6">#00fff6</span><span class="s1">);</span>
+            <span class="s2">transition</span><span class="s1">: </span><span class="s3">all </span><span class="s5">0.3</span><span class="s3">s ease</span><span class="s1">;</span>
+        <span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">flip-card-front</span><span class="s1">:</span><span class="s0">hover img </span><span class="s1">{</span>
+            <span class="s2">transform</span><span class="s1">: </span><span class="s0">scale</span><span class="s1">(</span><span class="s5">1.2</span><span class="s1">);</span>
+            <span class="s2">filter</span><span class="s1">: </span><span class="s0">drop-shadow</span><span class="s1">(</span><span class="s5">0 0 20</span><span class="s3">px </span><span class="s6">#00fff6</span><span class="s1">);</span>
+        <span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">flip-card-back </span><span class="s1">{</span>
+            <span class="s2">background</span><span class="s1">: </span><span class="s0">rgba</span><span class="s1">(</span><span class="s5">10</span><span class="s1">,</span><span class="s5">10</span><span class="s1">,</span><span class="s5">10</span><span class="s1">,</span><span class="s5">0.95</span><span class="s1">);</span>
+            <span class="s2">color</span><span class="s1">:</span><span class="s6">#00fff6</span><span class="s1">;</span>
+            <span class="s2">transform</span><span class="s1">:</span><span class="s0">rotateY</span><span class="s1">(</span><span class="s5">180</span><span class="s3">deg</span><span class="s1">);</span>
+            <span class="s2">padding</span><span class="s1">:</span><span class="s5">10</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">text-align</span><span class="s1">:</span><span class="s3">center</span><span class="s1">;</span>
+            <span class="s2">font-size</span><span class="s1">:</span><span class="s5">14</span><span class="s3">px</span><span class="s1">;</span>
+        <span class="s1">}</span>
+
+        <span class="s4">/* --- Режимы PvP --- */</span>
+        <span class="s0">h2</span><span class="s1">.</span><span class="s0">modes-title </span><span class="s1">{</span><span class="s2">margin-top</span><span class="s1">:</span><span class="s5">50</span><span class="s3">px</span><span class="s1">;</span><span class="s2">margin-bottom</span><span class="s1">:</span><span class="s5">30</span><span class="s3">px</span><span class="s1">;}</span>
+        <span class="s1">.</span><span class="s0">modes-card </span><span class="s1">{</span><span class="s2">display</span><span class="s1">:</span><span class="s3">flex</span><span class="s1">;</span><span class="s2">flex-wrap</span><span class="s1">:</span><span class="s3">wrap</span><span class="s1">;</span><span class="s2">justify-content</span><span class="s1">:</span><span class="s3">center</span><span class="s1">;</span><span class="s2">gap</span><span class="s1">:</span><span class="s5">25</span><span class="s3">px</span><span class="s1">;</span><span class="s2">margin-bottom</span><span class="s1">:</span><span class="s5">50</span><span class="s3">px</span><span class="s1">;}</span>
+        <span class="s1">.</span><span class="s0">mode-card </span><span class="s1">{</span>
+            <span class="s2">width</span><span class="s1">:</span><span class="s5">260</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">height</span><span class="s1">:</span><span class="s5">130</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">perspective</span><span class="s1">:</span><span class="s5">1200</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">cursor</span><span class="s1">:</span><span class="s3">pointer</span><span class="s1">;</span>
+            <span class="s2">opacity</span><span class="s1">:</span><span class="s5">0</span><span class="s1">;</span>
+            <span class="s2">transform</span><span class="s1">: </span><span class="s0">translateY</span><span class="s1">(</span><span class="s5">50</span><span class="s3">px</span><span class="s1">);</span>
+            <span class="s2">transition</span><span class="s1">: </span><span class="s3">all </span><span class="s5">0.8</span><span class="s3">s ease</span><span class="s1">;</span>
+        <span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">mode-card</span><span class="s1">.</span><span class="s0">visible </span><span class="s1">{</span><span class="s2">opacity</span><span class="s1">:</span><span class="s5">1</span><span class="s1">; </span><span class="s2">transform</span><span class="s1">:</span><span class="s0">translateY</span><span class="s1">(</span><span class="s5">0</span><span class="s1">);}</span>
+        <span class="s1">.</span><span class="s0">mode-inner </span><span class="s1">{</span>
+            <span class="s2">width</span><span class="s1">:</span><span class="s5">100</span><span class="s1">%;</span>
+            <span class="s2">height</span><span class="s1">:</span><span class="s5">100</span><span class="s1">%;</span>
+            <span class="s2">border-radius</span><span class="s1">:</span><span class="s5">15</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">transform-style</span><span class="s1">: </span><span class="s3">preserve-3d</span><span class="s1">;</span>
+            <span class="s2">transition</span><span class="s1">: </span><span class="s3">transform </span><span class="s5">0.7</span><span class="s3">s ease-in-out</span><span class="s1">;</span>
+            <span class="s2">box-shadow</span><span class="s1">:</span><span class="s5">0 0 15</span><span class="s3">px </span><span class="s0">rgba</span><span class="s1">(</span><span class="s5">0</span><span class="s1">,</span><span class="s5">255</span><span class="s1">,</span><span class="s5">246</span><span class="s1">,</span><span class="s5">0.2</span><span class="s1">);</span>
+        <span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">mode-card</span><span class="s1">.</span><span class="s0">open </span><span class="s1">.</span><span class="s0">mode-inner </span><span class="s1">{</span><span class="s2">transform</span><span class="s1">: </span><span class="s0">rotateX</span><span class="s1">(</span><span class="s5">180</span><span class="s3">deg</span><span class="s1">);}</span>
+        <span class="s1">.</span><span class="s0">mode-front</span><span class="s1">, .</span><span class="s0">mode-back </span><span class="s1">{</span>
+            <span class="s2">position</span><span class="s1">:</span><span class="s3">absolute</span><span class="s1">;</span>
+            <span class="s2">width</span><span class="s1">:</span><span class="s5">100</span><span class="s1">%;</span>
+            <span class="s2">height</span><span class="s1">:</span><span class="s5">100</span><span class="s1">%;</span>
+            <span class="s2">border-radius</span><span class="s1">:</span><span class="s5">15</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">backface-visibility</span><span class="s1">:</span><span class="s3">hidden</span><span class="s1">;</span>
+            <span class="s2">display</span><span class="s1">:</span><span class="s3">flex</span><span class="s1">;</span>
+            <span class="s2">justify-content</span><span class="s1">:</span><span class="s3">center</span><span class="s1">;</span>
+            <span class="s2">align-items</span><span class="s1">:</span><span class="s3">center</span><span class="s1">;</span>
+            <span class="s2">flex-direction</span><span class="s1">:</span><span class="s3">column</span><span class="s1">;</span>
+            <span class="s2">text-align</span><span class="s1">:</span><span class="s3">center</span><span class="s1">;</span>
+            <span class="s2">padding</span><span class="s1">:</span><span class="s5">15</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">font-weight</span><span class="s1">:</span><span class="s3">bold</span><span class="s1">;</span>
+            <span class="s2">font-size</span><span class="s1">:</span><span class="s5">20</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">color</span><span class="s1">:</span><span class="s6">#00fff6</span><span class="s1">;</span>
+            <span class="s2">transition</span><span class="s1">: </span><span class="s3">all </span><span class="s5">0.3</span><span class="s3">s ease</span><span class="s1">;</span>
+        <span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">mode-front </span><span class="s1">{</span><span class="s2">background</span><span class="s1">: </span><span class="s0">rgba</span><span class="s1">(</span><span class="s5">20</span><span class="s1">,</span><span class="s5">20</span><span class="s1">,</span><span class="s5">20</span><span class="s1">,</span><span class="s5">0.85</span><span class="s1">);}</span>
+        <span class="s1">.</span><span class="s0">mode-front</span><span class="s1">:</span><span class="s0">hover </span><span class="s1">{</span><span class="s2">box-shadow</span><span class="s1">:</span><span class="s5">0 0 25</span><span class="s3">px </span><span class="s6">#00fff6</span><span class="s1">,</span><span class="s5">0 0 45</span><span class="s3">px </span><span class="s6">#00bcd4</span><span class="s1">; </span><span class="s2">transform</span><span class="s1">: </span><span class="s0">translateY</span><span class="s1">(-</span><span class="s5">5</span><span class="s3">px</span><span class="s1">);}</span>
+        <span class="s1">.</span><span class="s0">mode-back </span><span class="s1">{</span><span class="s2">background</span><span class="s1">: </span><span class="s0">rgba</span><span class="s1">(</span><span class="s5">15</span><span class="s1">,</span><span class="s5">15</span><span class="s1">,</span><span class="s5">15</span><span class="s1">,</span><span class="s5">0.95</span><span class="s1">); </span><span class="s2">transform</span><span class="s1">: </span><span class="s0">rotateX</span><span class="s1">(</span><span class="s5">180</span><span class="s3">deg</span><span class="s1">); </span><span class="s2">font-size</span><span class="s1">:</span><span class="s5">16</span><span class="s3">px</span><span class="s1">; </span><span class="s2">color</span><span class="s1">:</span><span class="s6">#ddd</span><span class="s1">;}</span>
+
+        <span class="s4">/* --- Динамический фон и частицы --- */</span>
+        <span class="s0">body</span><span class="s1">::</span><span class="s0">before </span><span class="s1">{</span><span class="s2">content</span><span class="s1">:</span><span class="s3">&quot;&quot;</span><span class="s1">;</span><span class="s2">position</span><span class="s1">:</span><span class="s3">fixed</span><span class="s1">;</span><span class="s2">top</span><span class="s1">:</span><span class="s5">0</span><span class="s1">;</span><span class="s2">left</span><span class="s1">:</span><span class="s5">0</span><span class="s1">;</span><span class="s2">width</span><span class="s1">:</span><span class="s5">100</span><span class="s1">%;</span><span class="s2">height</span><span class="s1">:</span><span class="s5">100</span><span class="s1">%;</span><span class="s2">background</span><span class="s1">:</span><span class="s0">linear-gradient</span><span class="s1">(</span><span class="s5">270</span><span class="s3">deg</span><span class="s1">,</span><span class="s6">#1e1e2f</span><span class="s1">,</span><span class="s6">#0f0c29</span><span class="s1">,</span><span class="s6">#302b63</span><span class="s1">,</span><span class="s6">#1e1e2f</span><span class="s1">);</span><span class="s2">background-size</span><span class="s1">:</span><span class="s5">400</span><span class="s1">% </span><span class="s5">400</span><span class="s1">%;</span><span class="s2">animation</span><span class="s1">:</span><span class="s3">gradAnim </span><span class="s5">20</span><span class="s3">s ease infinite</span><span class="s1">;</span><span class="s2">z-index</span><span class="s1">:-</span><span class="s5">1</span><span class="s1">;}</span>
+        <span class="s7">@keyframes </span><span class="s0">gradAnim </span><span class="s1">{</span><span class="s0">0%</span><span class="s1">{</span><span class="s2">background-position</span><span class="s1">:</span><span class="s5">0 50</span><span class="s1">%}</span><span class="s0">50%</span><span class="s1">{</span><span class="s2">background-position</span><span class="s1">:</span><span class="s5">100</span><span class="s1">% </span><span class="s5">50</span><span class="s1">%}</span><span class="s0">100%</span><span class="s1">{</span><span class="s2">background-position</span><span class="s1">:</span><span class="s5">0 50</span><span class="s1">%}}</span>
+        <span class="s0">#particles </span><span class="s1">{</span><span class="s2">position</span><span class="s1">:</span><span class="s3">fixed</span><span class="s1">;</span><span class="s2">top</span><span class="s1">:</span><span class="s5">0</span><span class="s1">;</span><span class="s2">left</span><span class="s1">:</span><span class="s5">0</span><span class="s1">;</span><span class="s2">width</span><span class="s1">:</span><span class="s5">100</span><span class="s1">%;</span><span class="s2">height</span><span class="s1">:</span><span class="s5">100</span><span class="s1">%;</span><span class="s2">pointer-events</span><span class="s1">:</span><span class="s3">none</span><span class="s1">;</span><span class="s2">z-index</span><span class="s1">:-</span><span class="s5">1</span><span class="s1">;}</span>
+        <span class="s1">.</span><span class="s0">particle </span><span class="s1">{</span><span class="s2">position</span><span class="s1">:</span><span class="s3">absolute</span><span class="s1">;</span><span class="s2">width</span><span class="s1">:</span><span class="s5">6</span><span class="s3">px</span><span class="s1">;</span><span class="s2">height</span><span class="s1">:</span><span class="s5">6</span><span class="s3">px</span><span class="s1">;</span><span class="s2">background</span><span class="s1">:</span><span class="s6">#00fff6</span><span class="s1">;</span><span class="s2">border-radius</span><span class="s1">:</span><span class="s5">50</span><span class="s1">%;</span><span class="s2">opacity</span><span class="s1">:</span><span class="s5">0.7</span><span class="s1">;</span><span class="s2">animation</span><span class="s1">: </span><span class="s3">float </span><span class="s5">5</span><span class="s3">s linear infinite</span><span class="s1">;}</span>
+        <span class="s7">@keyframes </span><span class="s0">float </span><span class="s1">{</span><span class="s0">0%</span><span class="s1">{</span><span class="s2">transform</span><span class="s1">: </span><span class="s0">translateY</span><span class="s1">(</span><span class="s5">0</span><span class="s3">px</span><span class="s1">);}</span><span class="s0">100%</span><span class="s1">{</span><span class="s2">transform</span><span class="s1">: </span><span class="s0">translateY</span><span class="s1">(-</span><span class="s5">800</span><span class="s3">px</span><span class="s1">);}}</span>
+
+        <span class="s4">/* --- Связь --- */</span>
+        <span class="s1">.</span><span class="s0">contact-card </span><span class="s1">{</span>
+            <span class="s2">background</span><span class="s1">: </span><span class="s0">rgba</span><span class="s1">(</span><span class="s5">20</span><span class="s1">,</span><span class="s5">20</span><span class="s1">,</span><span class="s5">20</span><span class="s1">,</span><span class="s5">0.9</span><span class="s1">);</span>
+            <span class="s2">border-radius</span><span class="s1">: </span><span class="s5">15</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">padding</span><span class="s1">: </span><span class="s5">25</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">text-align</span><span class="s1">: </span><span class="s3">center</span><span class="s1">;</span>
+            <span class="s2">box-shadow</span><span class="s1">:</span><span class="s5">0 0 25</span><span class="s3">px </span><span class="s0">rgba</span><span class="s1">(</span><span class="s5">0</span><span class="s1">,</span><span class="s5">255</span><span class="s1">,</span><span class="s5">246</span><span class="s1">,</span><span class="s5">0.3</span><span class="s1">);</span>
+            <span class="s2">margin-top</span><span class="s1">: </span><span class="s5">40</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">opacity</span><span class="s1">:</span><span class="s5">0</span><span class="s1">;</span>
+            <span class="s2">transform</span><span class="s1">: </span><span class="s0">translateY</span><span class="s1">(</span><span class="s5">50</span><span class="s3">px</span><span class="s1">);</span>
+            <span class="s2">transition</span><span class="s1">: </span><span class="s3">all </span><span class="s5">0.8</span><span class="s3">s ease</span><span class="s1">;</span>
+        <span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">contact-card</span><span class="s1">.</span><span class="s0">visible </span><span class="s1">{</span><span class="s2">opacity</span><span class="s1">:</span><span class="s5">1</span><span class="s1">; </span><span class="s2">transform</span><span class="s1">: </span><span class="s0">translateY</span><span class="s1">(</span><span class="s5">0</span><span class="s1">);}</span>
+        <span class="s1">.</span><span class="s0">contact-card p </span><span class="s1">{</span><span class="s2">margin-bottom</span><span class="s1">:</span><span class="s5">15</span><span class="s3">px</span><span class="s1">; </span><span class="s2">font-size</span><span class="s1">:</span><span class="s5">16</span><span class="s3">px</span><span class="s1">;}</span>
+        <span class="s1">.</span><span class="s0">telegram-link </span><span class="s1">{</span>
+            <span class="s2">display</span><span class="s1">:</span><span class="s3">inline-block</span><span class="s1">;</span>
+            <span class="s2">padding</span><span class="s1">:</span><span class="s5">10</span><span class="s3">px </span><span class="s5">20</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">border-radius</span><span class="s1">:</span><span class="s5">12</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">background</span><span class="s1">: </span><span class="s6">#00fff6</span><span class="s1">;</span>
+            <span class="s2">color</span><span class="s1">:</span><span class="s6">#000</span><span class="s1">;</span>
+            <span class="s2">font-weight</span><span class="s1">:</span><span class="s3">bold</span><span class="s1">;</span>
+            <span class="s2">text-decoration</span><span class="s1">:</span><span class="s3">none</span><span class="s1">;</span>
+            <span class="s2">transition</span><span class="s1">: </span><span class="s3">all </span><span class="s5">0.3</span><span class="s3">s ease</span><span class="s1">;</span>
+        <span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">telegram-link</span><span class="s1">:</span><span class="s0">hover </span><span class="s1">{</span><span class="s2">background</span><span class="s1">:</span><span class="s6">#00bcd4</span><span class="s1">; </span><span class="s2">transform</span><span class="s1">: </span><span class="s0">scale</span><span class="s1">(</span><span class="s5">1.05</span><span class="s1">);}</span>
+    <span class="s0">&lt;/style&gt;</span>
+<span class="s0">&lt;/head&gt;</span>
+<span class="s0">&lt;body&gt;</span>
+
+<span class="s0">&lt;h1&gt;</span><span class="s1">vexlorwww — PvP Bio</span><span class="s0">&lt;/h1&gt;</span>
+
+<span class="s0">&lt;h2 </span><span class="s2">id</span><span class="s3">=&quot;bio-header&quot;</span><span class="s0">&gt;</span><span class="s1">Обо мне (тыкни)</span><span class="s0">&lt;/h2&gt;</span>
+<span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;bio-card&quot; </span><span class="s2">id</span><span class="s3">=&quot;bio-text&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;p&gt;</span><span class="s1">Привет! Меня зовут </span><span class="s0">&lt;b&gt;</span><span class="s1">Vexlorwww</span><span class="s0">&lt;/b&gt;</span><span class="s1">, и я уже более пяти лет активно погружаюсь в мир PvP Minecraft. За это время я освоил множество игровых режимов, от быстрых дуэлей до сложных BuildUHC и SkyWars, научился чувствовать тайминги и предугадывать движения противников. Моя первая практика началась на любимых серверах детства, таких как </span><span class="s0">&lt;b&gt;</span><span class="s1">Dygers.fun</span><span class="s0">&lt;/b&gt;</span><span class="s1">, </span><span class="s0">&lt;b&gt;</span><span class="s1">Antralia.net</span><span class="s0">&lt;/b&gt;</span><span class="s1">, </span><span class="s0">&lt;b&gt;</span><span class="s1">mc.Reallyworld.ru</span><span class="s0">&lt;/b&gt; </span><span class="s1">и </span><span class="s0">&lt;b&gt;</span><span class="s1">Funtime</span><span class="s0">&lt;/b&gt;</span><span class="s1">, где я постепенно развивал навыки, оттачивал реакцию и понимание механики боёв. Постепенно я освоил различия между Java и Bedrock PvP, улучшал скорость кликов и изучал различные стили игры. Проводя часы на тренировочных аренах и участвуя в PvP-соревнованиях, я приобрёл ценные знания о стратегии, комбо и правильной работе с оружием. Сейчас я продолжаю развиваться, делясь опытом с другими и помогая новичкам освоить тонкости PvP. Моя цель — постоянно повышать свой уровень и оставаться конкурентоспособным в любой ситуации на поле боя.</span><span class="s0">&lt;/p&gt;</span>
+<span class="s0">&lt;/div&gt;</span>
+
+<span class="s0">&lt;h2&gt;</span><span class="s1">Моё оружие</span><span class="s0">&lt;/h2&gt;</span>
+<span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;cards-container&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;flip-card&quot; </span><span class="s2">onclick</span><span class="s3">=&quot;</span><span class="s1">flipCard(</span><span class="s7">this</span><span class="s1">)</span><span class="s3">&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;flip-card-inner&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;flip-card-front&quot;</span><span class="s0">&gt;&lt;img </span><span class="s2">src</span><span class="s3">=&quot;images/diamond_sword.png&quot; </span><span class="s2">alt</span><span class="s3">=&quot;Алмазный меч&quot;</span><span class="s0">&gt;&lt;h3&gt;</span><span class="s1">Алмазный меч</span><span class="s0">&lt;/h3&gt;&lt;p&gt;</span><span class="s1">LT2 (Java)</span><span class="s0">&lt;/p&gt;&lt;/div&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;flip-card-back&quot;</span><span class="s0">&gt;&lt;p&gt;</span><span class="s1">В пвп Sword уже как 2 года, я умею на нем хорошо играть. Ранг LT3.</span><span class="s0">&lt;/p&gt;&lt;/div&gt;</span>
+        <span class="s0">&lt;/div&gt;</span>
+    <span class="s0">&lt;/div&gt;</span>
+    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;flip-card&quot; </span><span class="s2">onclick</span><span class="s3">=&quot;</span><span class="s1">flipCard(</span><span class="s7">this</span><span class="s1">)</span><span class="s3">&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;flip-card-inner&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;flip-card-front&quot;</span><span class="s0">&gt;&lt;img </span><span class="s2">src</span><span class="s3">=&quot;images/axe.png&quot; </span><span class="s2">alt</span><span class="s3">=&quot;Axe&quot;</span><span class="s0">&gt;&lt;h3&gt;</span><span class="s1">Axe</span><span class="s0">&lt;/h3&gt;&lt;p&gt;</span><span class="s1">LT5 (Java)</span><span class="s0">&lt;/p&gt;&lt;/div&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;flip-card-back&quot;</span><span class="s0">&gt;&lt;p&gt;</span><span class="s1">Чуть-чуть могу играть на LT4, продолжаю тренироваться.</span><span class="s0">&lt;/p&gt;&lt;/div&gt;</span>
+        <span class="s0">&lt;/div&gt;</span>
+    <span class="s0">&lt;/div&gt;</span>
+    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;flip-card&quot; </span><span class="s2">onclick</span><span class="s3">=&quot;</span><span class="s1">flipCard(</span><span class="s7">this</span><span class="s1">)</span><span class="s3">&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;flip-card-inner&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;flip-card-front&quot;</span><span class="s0">&gt;&lt;img </span><span class="s2">src</span><span class="s3">=&quot;images/crystal.png&quot; </span><span class="s2">alt</span><span class="s3">=&quot;Кристалл ПВП&quot;</span><span class="s0">&gt;&lt;h3&gt;</span><span class="s1">Кристалл ПВП</span><span class="s0">&lt;/h3&gt;&lt;p&gt;</span><span class="s1">LT5 и ниже (Java)</span><span class="s0">&lt;/p&gt;&lt;/div&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;flip-card-back&quot;</span><span class="s0">&gt;&lt;p&gt;</span><span class="s1">Вообще не умею играть на LT5 и ниже, но пробую и постепенно учусь.</span><span class="s0">&lt;/p&gt;&lt;/div&gt;</span>
+        <span class="s0">&lt;/div&gt;</span>
+    <span class="s0">&lt;/div&gt;</span>
+    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;flip-card&quot; </span><span class="s2">onclick</span><span class="s3">=&quot;</span><span class="s1">flipCard(</span><span class="s7">this</span><span class="s1">)</span><span class="s3">&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;flip-card-inner&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;flip-card-front&quot;</span><span class="s0">&gt;&lt;img </span><span class="s2">src</span><span class="s3">=&quot;images/axe.png&quot; </span><span class="s2">alt</span><span class="s3">=&quot;Bedrock PvP&quot;</span><span class="s0">&gt;&lt;h3&gt;</span><span class="s1">Bedrock PvP</span><span class="s0">&lt;/h3&gt;&lt;p&gt;</span><span class="s1">LT1</span><span class="s0">&lt;/p&gt;&lt;/div&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;flip-card-back&quot;</span><span class="s0">&gt;&lt;p&gt;</span><span class="s1">На Bedrock PvP я уже довольно давно, с него все и начиналось. Сейчас LT1. Постепенно осваиваю новые стратегии.</span><span class="s0">&lt;/p&gt;&lt;/div&gt;</span>
+        <span class="s0">&lt;/div&gt;</span>
+    <span class="s0">&lt;/div&gt;</span>
+<span class="s0">&lt;/div&gt;</span>
+
+<span class="s0">&lt;h2 </span><span class="s2">class</span><span class="s3">=&quot;modes-title&quot;</span><span class="s0">&gt;</span><span class="s1">Режимы PvP</span><span class="s0">&lt;/h2&gt;</span>
+<span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;modes-card&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-card&quot;</span><span class="s0">&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-inner&quot;</span><span class="s0">&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-front&quot;</span><span class="s0">&gt;</span><span class="s1">Duels</span><span class="s0">&lt;/div&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-back&quot;</span><span class="s0">&gt;</span><span class="s1">Классические дуэли 1v1 или 2v2, проверка реакции и тактики.</span><span class="s0">&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</span>
+    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-card&quot;</span><span class="s0">&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-inner&quot;</span><span class="s0">&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-front&quot;</span><span class="s0">&gt;</span><span class="s1">KitPvP</span><span class="s0">&lt;/div&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-back&quot;</span><span class="s0">&gt;</span><span class="s1">Быстрые бои с готовыми комплектами оружия и брони.</span><span class="s0">&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</span>
+    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-card&quot;</span><span class="s0">&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-inner&quot;</span><span class="s0">&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-front&quot;</span><span class="s0">&gt;</span><span class="s1">Practice PvP</span><span class="s0">&lt;/div&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-back&quot;</span><span class="s0">&gt;</span><span class="s1">Тренировочные арены для отработки кликов, комбо и механики.</span><span class="s0">&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</span>
+    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-card&quot;</span><span class="s0">&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-inner&quot;</span><span class="s0">&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-front&quot;</span><span class="s0">&gt;</span><span class="s1">SkyWars</span><span class="s0">&lt;/div&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-back&quot;</span><span class="s0">&gt;</span><span class="s1">Бои на летающих островах с ограниченными ресурсами и тактическим строительством.</span><span class="s0">&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</span>
+    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-card&quot;</span><span class="s0">&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-inner&quot;</span><span class="s0">&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-front&quot;</span><span class="s0">&gt;</span><span class="s1">BedWars</span><span class="s0">&lt;/div&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-back&quot;</span><span class="s0">&gt;</span><span class="s1">Командный режим, где нужно защищать и уничтожать кровати противников.</span><span class="s0">&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</span>
+    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-card&quot;</span><span class="s0">&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-inner&quot;</span><span class="s0">&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-front&quot;</span><span class="s0">&gt;</span><span class="s1">FFA</span><span class="s0">&lt;/div&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-back&quot;</span><span class="s0">&gt;</span><span class="s1">Free For All — каждый сам за себя, проверка индивидуальных навыков.</span><span class="s0">&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</span>
+    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-card&quot;</span><span class="s0">&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-inner&quot;</span><span class="s0">&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-front&quot;</span><span class="s0">&gt;</span><span class="s1">BuildUHC</span><span class="s0">&lt;/div&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;mode-back&quot;</span><span class="s0">&gt;</span><span class="s1">Комбинация строительства и PvP, где здоровье ограничено и важна стратегия.</span><span class="s0">&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</span>
+<span class="s0">&lt;/div&gt;</span>
+
+<span class="s0">&lt;h2&gt;</span><span class="s1">Связь со мной</span><span class="s0">&lt;/h2&gt;</span>
+<span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;contact-card&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;p&gt;</span><span class="s1">Хочешь научиться PvP или потренироваться вместе? Пиши мне в Telegram:</span><span class="s0">&lt;/p&gt;</span>
+    <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;https://t.me/vexlorwww&quot; </span><span class="s2">target</span><span class="s3">=&quot;_blank&quot; </span><span class="s2">class</span><span class="s3">=&quot;telegram-link&quot;</span><span class="s0">&gt;</span><span class="s1">@vexlorwww</span><span class="s0">&lt;/a&gt;</span>
+<span class="s0">&lt;/div&gt;</span>
+
+<span class="s0">&lt;div </span><span class="s2">id</span><span class="s3">=&quot;particles&quot;</span><span class="s0">&gt;&lt;/div&gt;</span>
+
+<span class="s0">&lt;script&gt;</span>
+    <span class="s4">// Flip-карточки оружия</span>
+    <span class="s7">function </span><span class="s1">flipCard(card){</span>
+        <span class="s7">const </span><span class="s1">inner = card.querySelector(</span><span class="s3">'.flip-card-inner'</span><span class="s1">);</span>
+        <span class="s1">inner.style.transform = inner.style.transform === </span><span class="s3">&quot;rotateY(180deg)&quot; </span><span class="s1">? </span><span class="s3">&quot;rotateY(0deg)&quot; </span><span class="s1">: </span><span class="s3">&quot;rotateY(180deg)&quot;</span><span class="s1">;</span>
+    <span class="s1">}</span>
+
+    <span class="s4">// Анимация появления при скролле</span>
+    <span class="s7">const </span><span class="s1">observer = </span><span class="s7">new </span><span class="s1">IntersectionObserver(entries=&gt;{</span>
+        <span class="s1">entries.forEach(entry=&gt;{</span>
+            <span class="s7">if</span><span class="s1">(entry.isIntersecting){ entry.target.classList.add(</span><span class="s3">'visible'</span><span class="s1">); }</span>
+        <span class="s1">});</span>
+    <span class="s1">},{threshold:</span><span class="s5">0.2</span><span class="s1">});</span>
+    <span class="s1">document.querySelectorAll(</span><span class="s3">'.flip-card, .mode-card, .contact-card'</span><span class="s1">).forEach(el=&gt;observer.observe(el));</span>
+
+    <span class="s4">// Частицы</span>
+    <span class="s7">const </span><span class="s1">particleContainer = document.getElementById(</span><span class="s3">'particles'</span><span class="s1">);</span>
+    <span class="s7">for</span><span class="s1">(</span><span class="s7">let </span><span class="s1">i=</span><span class="s5">0</span><span class="s1">;i&lt;</span><span class="s5">50</span><span class="s1">;i++){</span>
+        <span class="s7">const </span><span class="s1">p = document.createElement(</span><span class="s3">'div'</span><span class="s1">);</span>
+        <span class="s1">p.classList.add(</span><span class="s3">'particle'</span><span class="s1">);</span>
+        <span class="s1">p.style.left = Math.random()*window.innerWidth+</span><span class="s3">'px'</span><span class="s1">;</span>
+        <span class="s1">p.style.top = Math.random()*window.innerHeight+</span><span class="s3">'px'</span><span class="s1">;</span>
+        <span class="s1">p.style.width = (</span><span class="s5">3</span><span class="s1">+Math.random()*</span><span class="s5">3</span><span class="s1">)+</span><span class="s3">'px'</span><span class="s1">;</span>
+        <span class="s1">p.style.height = (</span><span class="s5">3</span><span class="s1">+Math.random()*</span><span class="s5">3</span><span class="s1">)+</span><span class="s3">'px'</span><span class="s1">;</span>
+        <span class="s1">p.style.animationDuration = (</span><span class="s5">3</span><span class="s1">+Math.random()*</span><span class="s5">3</span><span class="s1">)+</span><span class="s3">'s'</span><span class="s1">;</span>
+        <span class="s1">particleContainer.appendChild(p);</span>
+    <span class="s1">}</span>
+
+    <span class="s4">// PvP режимы — 3D разворот</span>
+    <span class="s1">document.querySelectorAll(</span><span class="s3">'.mode-card'</span><span class="s1">).forEach(card=&gt;{</span>
+        <span class="s1">card.addEventListener(</span><span class="s3">'click'</span><span class="s1">, ()=&gt;{ card.classList.toggle(</span><span class="s3">'open'</span><span class="s1">); });</span>
+    <span class="s1">});</span>
+
+    <span class="s4">// Обо мне — плавное раскрытие</span>
+    <span class="s1">document.getElementById(</span><span class="s3">'bio-header'</span><span class="s1">).addEventListener(</span><span class="s3">'click'</span><span class="s1">, ()=&gt;{</span>
+        <span class="s1">document.getElementById(</span><span class="s3">'bio-text'</span><span class="s1">).classList.toggle(</span><span class="s3">'open'</span><span class="s1">);</span>
+    <span class="s1">});</span>
+<span class="s0">&lt;/script&gt;</span>
+<span class="s0">&lt;/body&gt;</span>
+<span class="s0">&lt;/html&gt;</span>
+</pre>
+</body>
+</html>
